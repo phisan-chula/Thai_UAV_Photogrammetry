@@ -1,9 +1,10 @@
 #
 #
+# Plot_GeoTag : read jpeg files acquired from UAV mission. JPEG files are placed
+#               in a folder and read then produced KML/GPKG gis files. 
+#               With KML positions are plot in timestamped 3D points. 
 #
 #
-#
-
 import pandas as pd
 import geopandas as gpd
 from pathlib import Path
